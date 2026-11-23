@@ -1,0 +1,10 @@
+{
+  "name": "js-components",
+  "version": "1.0.0",
+  "description": "Skills and custom agents for building and maintaining lightweight, vanilla, semantic, dumb presentational Vue 3 components in @steelmasterj/js-components.",
+  "author": {
+    "name": "Joseph Steel"
+  },
+  "skills": "skills/",
+  "agents": "agents/"
+}

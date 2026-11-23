@@ -1,0 +1,17 @@
+{
+  "description": "Always-on safety guardrails blocking sensitive file reads, destructive commands, irreversible actions, and git force pushes.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/guardrails.mjs\" --adapter claude",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

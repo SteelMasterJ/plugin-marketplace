@@ -1,0 +1,45 @@
+{
+  "name": "steelmasterj-marketplace",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Joseph Steel",
+    "url": "https://github.com/SteelMasterJ/plugin-marketplace"
+  },
+  "environments": {
+    "antigravity": "./antigravity/plugins.json",
+    "claude": "./.claude-plugin/marketplace.json",
+    "copilot": "./.github/plugin/marketplace.json"
+  },
+  "plugins": [
+    {
+      "name": "safe-guardrails",
+      "description": "Always-on PreToolUse/preToolUse safety hook blocking sensitive file reads (.env, keys, credentials), destructive commands, irreversible actions, and git force pushes.",
+      "version": "1.0.0",
+      "paths": {
+        "antigravity": "./antigravity/plugins/safe-guardrails",
+        "claude": "./claude/plugins/safe-guardrails",
+        "copilot": "./copilot/plugins/safe-guardrails"
+      }
+    },
+    {
+      "name": "js-components",
+      "description": "Skills, rules, and agents for building and maintaining lightweight, vanilla, semantic, dumb presentational Vue 3 components in @steelmasterj/js-components.",
+      "version": "1.0.0",
+      "paths": {
+        "antigravity": "./antigravity/plugins/js-components",
+        "claude": "./claude/plugins/js-components",
+        "copilot": "./copilot/plugins/js-components"
+      }
+    },
+    {
+      "name": "web-review",
+      "description": "PR review and accessibility audit skills plus a read-only frontend reviewer agent prioritizing WCAG 2.1 AA, 320px responsiveness, and semantic HTML.",
+      "version": "1.0.0",
+      "paths": {
+        "antigravity": "./antigravity/plugins/web-review",
+        "claude": "./claude/plugins/web-review",
+        "copilot": "./copilot/plugins/web-review"
+      }
+    }
+  ]
+}

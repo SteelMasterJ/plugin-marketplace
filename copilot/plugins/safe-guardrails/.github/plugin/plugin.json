@@ -1,0 +1,9 @@
+{
+  "name": "safe-guardrails",
+  "version": "1.0.0",
+  "description": "Always-on preToolUse safety hook blocking sensitive file reads (.env, keys, credentials), destructive commands, irreversible actions, and git force pushes.",
+  "author": {
+    "name": "Joseph Steel"
+  },
+  "hooks": "hooks/hooks.json"
+}

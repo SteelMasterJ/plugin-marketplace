@@ -1,0 +1,29 @@
+{
+  "name": "steelmasterj-marketplace",
+  "owner": {
+    "name": "Joseph Steel"
+  },
+  "metadata": {
+    "description": "Personal cross-environment plugins for safety guardrails, @steelmasterj/js-components development, and accessibility-first frontend PR reviews."
+  },
+  "plugins": [
+    {
+      "name": "safe-guardrails",
+      "description": "Always-on PreToolUse safety hook blocking sensitive file reads (.env, keys, credentials), destructive commands, irreversible actions, and git force pushes.",
+      "version": "1.0.0",
+      "source": "./claude/plugins/safe-guardrails"
+    },
+    {
+      "name": "js-components",
+      "description": "Skills and subagents for building and maintaining lightweight, vanilla, semantic, dumb presentational Vue 3 components in @steelmasterj/js-components.",
+      "version": "1.0.0",
+      "source": "./claude/plugins/js-components"
+    },
+    {
+      "name": "web-review",
+      "description": "PR review and accessibility audit skills plus a read-only frontend reviewer subagent prioritizing WCAG 2.1 AA, 320px responsiveness, and semantic HTML.",
+      "version": "1.0.0",
+      "source": "./claude/plugins/web-review"
+    }
+  ]
+}

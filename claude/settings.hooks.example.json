@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/hooks/scripts/guardrails.mjs\" --adapter claude",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

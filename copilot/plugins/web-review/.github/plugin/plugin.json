@@ -1,0 +1,10 @@
+{
+  "name": "web-review",
+  "version": "1.0.0",
+  "description": "PR review and accessibility audit skills plus a read-only frontend reviewer agent prioritizing WCAG 2.1 AA, 320px responsiveness, semantic HTML, and vanilla lightweight code.",
+  "author": {
+    "name": "Joseph Steel"
+  },
+  "skills": "skills/",
+  "agents": "agents/"
+}

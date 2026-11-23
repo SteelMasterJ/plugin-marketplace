@@ -1,0 +1,16 @@
+{
+  "name": "web-review",
+  "displayName": "Web PR & Accessibility Review",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "description": "PR review and accessibility audit skills plus a read-only frontend reviewer agent prioritizing WCAG 2.1 AA, 320px responsiveness, semantic HTML, and vanilla lightweight code.",
+  "author": {
+    "name": "Joseph Steel"
+  },
+  "repository": "https://github.com/SteelMasterJ/plugin-marketplace",
+  "suggestedPrompts": [
+    "Review the current git diff for accessibility and responsiveness",
+    "Audit js-components or this web app for WCAG 2.1 AA and semantic HTML",
+    "Run frontend-pr-reviewer on changed components before merging"
+  ]
+}

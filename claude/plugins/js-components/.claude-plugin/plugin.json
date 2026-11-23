@@ -1,0 +1,10 @@
+{
+  "name": "js-components",
+  "version": "1.0.0",
+  "description": "Skills and subagents for building and maintaining lightweight, vanilla, semantic, dumb presentational Vue 3 components in @steelmasterj/js-components.",
+  "author": {
+    "name": "Joseph Steel"
+  },
+  "repository": "https://github.com/SteelMasterJ/plugin-marketplace",
+  "license": "MIT"
+}

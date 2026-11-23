@@ -1,0 +1,16 @@
+{
+  "safe-guardrails": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./scripts/guardrails.mjs --adapter antigravity",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

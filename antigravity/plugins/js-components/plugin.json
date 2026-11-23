@@ -1,0 +1,16 @@
+{
+  "name": "js-components",
+  "displayName": "JS Components Builder & Maintainer",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "description": "Skills, rules, and custom agents for building and maintaining lightweight, vanilla, semantic, dumb presentational Vue 3 components in @steelmasterj/js-components.",
+  "author": {
+    "name": "Joseph Steel"
+  },
+  "repository": "https://github.com/SteelMasterJ/plugin-marketplace",
+  "suggestedPrompts": [
+    "Build a new accessible JsAccordion component for js-components",
+    "Audit and refactor a component in src/components/ to pure vanilla CSS",
+    "Verify js-components build, tests, and npm pack output"
+  ]
+}

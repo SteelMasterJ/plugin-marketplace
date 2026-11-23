@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "web-review",
+  "version": "1.0.0",
+  "description": "PR review and accessibility audit skills plus a read-only frontend reviewer agent prioritizing WCAG 2.1 AA, 320px responsiveness, semantic HTML, and vanilla lightweight code.",
+  "author": {
+    "name": "Joseph Steel",
+    "url": "https://github.com/SteelMasterJ"
+  },
+  "keywords": ["code-review", "pr-review", "accessibility", "wcag", "responsive"],
+  "extensions": {
+    "com.github.copilot": {
+      "agents": {
+        "paths": ["agents"]
+      }
+    }
+  }
+}

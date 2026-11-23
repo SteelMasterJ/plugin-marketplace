@@ -1,0 +1,26 @@
+{
+  "name": "steelmasterj-marketplace",
+  "metadata": {
+    "description": "Personal cross-environment plugins for safety guardrails, @steelmasterj/js-components development, and accessibility-first frontend PR reviews."
+  },
+  "plugins": [
+    {
+      "name": "safe-guardrails",
+      "description": "Always-on preToolUse safety hook blocking sensitive file reads (.env, keys, credentials), destructive commands, irreversible actions, and git force pushes.",
+      "version": "1.0.0",
+      "source": "./copilot/plugins/safe-guardrails"
+    },
+    {
+      "name": "js-components",
+      "description": "Skills and custom agents for building and maintaining lightweight, vanilla, semantic, dumb presentational Vue 3 components in @steelmasterj/js-components.",
+      "version": "1.0.0",
+      "source": "./copilot/plugins/js-components"
+    },
+    {
+      "name": "web-review",
+      "description": "PR review and accessibility audit skills plus a read-only frontend reviewer agent prioritizing WCAG 2.1 AA, 320px responsiveness, and semantic HTML.",
+      "version": "1.0.0",
+      "source": "./copilot/plugins/web-review"
+    }
+  ]
+}

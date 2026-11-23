@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "command": "node ./.github/hooks/scripts/guardrails.mjs --adapter copilot",
+        "bash": "node ./.github/hooks/scripts/guardrails.mjs --adapter copilot",
+        "powershell": "node ./.github/hooks/scripts/guardrails.mjs --adapter copilot",
+        "timeoutSec": 10
+      }
+    ]
+  }
+}
