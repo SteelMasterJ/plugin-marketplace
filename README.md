@@ -11,6 +11,7 @@ Personal cross-environment plugin marketplace providing always-on safety guardra
 | **`safe-guardrails`** | Always-on `PreToolUse` / `preToolUse` safety hook that blocks reading `.env`/private keys/credentials, destructive commands, irreversible DB/cloud/publish operations, and git force pushes. | Zero-dep Node.js engine (`guardrails.mjs`) + native hooks for Antigravity, Claude Code, and Copilot |
 | **`js-components`** | Guides building & maintaining `@steelmasterj/js-components` with Vue 3 Options API, pure vanilla CSS (`--js-*` / `.js-*`), semantic HTML, dumb presentational boundaries, WCAG 2.1 AA accessibility, and `320px` responsiveness. | Skills: `js-component-builder`, `js-component-maintainer` • Agents: `js-component-architect`, `js-component-maintainer` |
 | **`web-review`** | Framework-agnostic PR & full-site review workflows usable on `js-components` and any web app or website build, prioritizing WCAG 2.1 AA, responsiveness, semantic HTML, and lightweight/presentational hygiene. | Skills: `pr-review`, `a11y-semantic-audit` • Agent: `frontend-pr-reviewer` (read-only) |
+| **`js-site-builder`** | Builds complete, modern, WCAG 2.1 AA accessible, responsive (`320px+`) websites from scratch using `@steelmasterj/js-components`, Vue 3 Composition API (`<script setup>`), Vite, `vue-router`, and semantic vanilla HTML/CSS with minimal dependencies — pausing to ask before building missing primitives in the library. | Skill: `js-site-builder` • Agent: `js-site-architect` |
 
 ---
 
@@ -48,10 +49,12 @@ Validate or install each plugin directory locally (Antigravity uses `antigravity
 agy plugin validate --strict ./antigravity/plugins/safe-guardrails
 agy plugin validate --strict ./antigravity/plugins/js-components
 agy plugin validate --strict ./antigravity/plugins/web-review
+agy plugin validate --strict ./antigravity/plugins/js-site-builder
 
 agy plugin install ./antigravity/plugins/safe-guardrails
 agy plugin install ./antigravity/plugins/js-components
 agy plugin install ./antigravity/plugins/web-review
+agy plugin install ./antigravity/plugins/js-site-builder
 ```
 Or reference `antigravity/plugins.json` from `~/.gemini/config/plugins.json` or `.agents/plugins.json`.
 

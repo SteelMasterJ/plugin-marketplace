@@ -15,7 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 
 const ALL_ENVS = ["antigravity", "claude", "copilot"];
-const ALL_PLUGINS = ["safe-guardrails", "js-components", "web-review"];
+const ALL_PLUGINS = ["safe-guardrails", "js-components", "web-review", "js-site-builder"];
 
 function printHelp() {
   console.log(`Usage: node scripts/install.mjs [options]

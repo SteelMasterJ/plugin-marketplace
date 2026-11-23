@@ -24,6 +24,12 @@
       "description": "PR review and accessibility audit skills plus a read-only frontend reviewer subagent prioritizing WCAG 2.1 AA, 320px responsiveness, and semantic HTML.",
       "version": "1.0.0",
       "source": "./claude/plugins/web-review"
+    },
+    {
+      "name": "js-site-builder",
+      "description": "Skill and architect subagent for building complete, modern, WCAG 2.1 AA accessible, responsive (320px+) websites from scratch with @steelmasterj/js-components, Vue 3 Composition API, Vite, vue-router, and semantic vanilla HTML/CSS.",
+      "version": "1.0.0",
+      "source": "./claude/plugins/js-site-builder"
     }
   ]
 }

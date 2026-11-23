@@ -40,6 +40,16 @@
         "claude": "./claude/plugins/web-review",
         "copilot": "./copilot/plugins/web-review"
       }
+    },
+    {
+      "name": "js-site-builder",
+      "description": "Skill and architect agent for building complete, modern, WCAG 2.1 AA accessible, responsive (320px+) websites from scratch with @steelmasterj/js-components, Vue 3 Composition API, Vite, vue-router, and semantic vanilla HTML/CSS.",
+      "version": "1.0.0",
+      "paths": {
+        "antigravity": "./antigravity/plugins/js-site-builder",
+        "claude": "./claude/plugins/js-site-builder",
+        "copilot": "./copilot/plugins/js-site-builder"
+      }
     }
   ]
 }

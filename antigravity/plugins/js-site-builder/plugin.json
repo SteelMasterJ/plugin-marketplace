@@ -1,0 +1,16 @@
+{
+  "name": "js-site-builder",
+  "displayName": "JS Components Website Builder",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "description": "Skill and architect agent for building complete, modern, WCAG 2.1 AA accessible, responsive (320px+) websites from scratch with @steelmasterj/js-components, Vue 3 Composition API, Vite, vue-router, and semantic vanilla HTML/CSS.",
+  "author": {
+    "name": "Joseph Steel"
+  },
+  "repository": "https://github.com/SteelMasterJ/plugin-marketplace",
+  "suggestedPrompts": [
+    "Build a new responsive website from scratch using @steelmasterj/js-components",
+    "Audit our planned pages against @steelmasterj/js-components and flag any missing components",
+    "Scaffold a Vue 3 Composition API + Vite + vue-router site themed with --js-* tokens"
+  ]
+}

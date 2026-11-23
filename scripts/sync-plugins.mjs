@@ -42,6 +42,10 @@ const DIR_MAPPINGS = [
     src: "shared/skills/a11y-semantic-audit",
     dests: ENVIRONMENTS.map((env) => `${env}/plugins/web-review/skills/a11y-semantic-audit`),
   },
+  {
+    src: "shared/skills/js-site-builder",
+    dests: ENVIRONMENTS.map((env) => `${env}/plugins/js-site-builder/skills/js-site-builder`),
+  },
 ];
 
 function listFilesRecursive(dirPath, base = dirPath) {
